@@ -1,0 +1,58 @@
+# Compilación / binarios
+*.exe
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# Carpetas de compilación
+/bin/
+/build/
+/Build/
+/debug/
+/Debug/
+/release/
+/Release/
+/x64/
+/x86/
+/out/
+/ipch/
+
+# Archivos de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Archivos temporales y logs
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+*.tmp
+
+# Archivos de dependencias
+*.VC.db
+*.VC.opendb
+*.idb
+*.opendb
+
+# Configuración de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+compile_commands.json
+
+# Otros
+*.db
+*.DS_Store
+Thumbs.db
